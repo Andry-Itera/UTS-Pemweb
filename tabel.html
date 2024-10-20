@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc Márquez: Dedikasi dan Dominasi di Arena MotoGP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #222; 
+            padding: 20px;
+            margin-bottom: 10px;
+            color: white;
+            box-shadow: 4px 6px 8px rgb(135, 206, 250); 
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-left: 20px; 
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            margin-left: 5px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #e74c3c;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }   
+
+        .sidebar {
+            height: 100vh; 
+            width: 200px; 
+            background-color: #333; 
+            color: white;
+            position: fixed; 
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            font-size: large;
+            color: #e74c3c;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+            color: white;
+        }
+
+        .content {
+            margin-left: 200px; 
+            padding: 10px;
+            padding-bottom: 60px; 
+            position: relative; 
+        }
+
+        .body-content {
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        .table-container {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+        }
+
+        .sticky-header th {
+            position: sticky;
+            top: 0;
+            background-color: #333;
+            color: white;
+            z-index: 10;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            .content {
+                margin-left: 0;
+                padding-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 600px) {
+        h1 {
+            font-size: 18px; 
+            margin-left: 10px;
+        }
+
+        .footer {
+                position: static; 
+                padding: 5px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="content">
+            <header class="col-12 header">
+                <h1>Daftar Pembalap MotoGP 2024</h1>
+            </header>
+        </div>
+        <div class="row">
+            <nav class="sidebar col-lg-2">
+                <h2>Navigasi</h2>
+                <ul>
+                    <li><a href="utama.html">Home</a></li>
+                    <li><a href="formulir.html">Formulir</a></li>
+                    <li><a href="tabel.html">Tabel Data</a></li>
+                </ul>
+            </nav>
+
+            <main class="content col-lg-10">
+                <div class="table-container">
+                    <table>
+                        <thead class="sticky-header">
+                            <tr>
+                                <th>No</th>
+                                <th>Nama Pembalap</th>
+                                <th>Team</th>
+                                <th>Negara</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>Marc Marquez</td><td>Gresini Racing</td><td>Spanyol</td></tr>
+                            <tr><td>2</td><td>Fabio Quartararo</td><td>Monster Yamaha</td><td>Prancis</td></tr>
+                            <tr><td>3</td><td>Francesco Bagnaia</td><td>Ducati Lenovo</td><td>Italia</td></tr>
+                            <tr><td>4</td><td>Joan Mir</td><td>Repsol Honda</td><td>Spanyol</td></tr>
+                            <tr><td>5</td><td>Jorge Martin</td><td>Pramac Racing</td><td>Spanyol</td></tr>
+                            <tr><td>6</td><td>Enea Bastianini</td><td>Ducati Lenovo</td><td>Italia</td></tr>
+                            <tr><td>7</td><td>Jack Miller</td><td>KTM Factory</td><td>Australia</td></tr>
+                            <tr><td>8</td><td>Maverick Vinales</td><td>Aprilia Racing</td><td>Spanyol</td></tr>
+                            <tr><td>9</td><td>Brad Binder</td><td>KTM Factory</td><td>Afrika Selatan</td></tr>
+                            <tr><td>10</td><td>Alex Rins</td><td>LCR Honda</td><td>Spanyol</td></tr>
+                            <tr><td>11</td><td>Luca Marini</td><td>Mooney VR46</td><td>Italia</td></tr>
+                            <tr><td>12</td><td>Marco Bezzecchi</td><td>Mooney VR46</td><td>Italia</td></tr>
+                            <tr><td>13</td><td>Franco Morbidelli</td><td>Monster Yamaha</td><td>Italia</td></tr>
+                            <tr><td>14</td><td>Pol Espargaro</td><td>GASGAS Factory Racing</td><td>Spanyol</td></tr>
+                            <tr><td>15</td><td>Augusto Fernandez</td><td>GASGAS Factory Racing</td><td>Spanyol</td></tr>
+                            <tr><td>16</td><td>Takaaki Nakagami</td><td>LCR Honda</td><td>Jepang</td></tr>
+                            <tr><td>17</td><td>Raul Fernandez</td><td>Aprilia Racing</td><td>Spanyol</td></tr>
+                            <tr><td>18</td><td>Alex Marquez</td><td>Gresini Racing</td><td>Spanyol</td></tr>
+                            <tr><td>19</td><td>Fabio Di Giannantonio</td><td>Gresini Racing</td><td>Italia</td></tr>
+                            <tr><td>20</td><td>Stefan Bradl</td><td>HRC Test Team</td><td>Jerman</td></tr>
+                            <tr><td>21</td><td>Rider Dummy 1</td><td>Team Dummy 1</td><td>Negara Dummy 1</td></tr>
+                            <tr><td>22</td><td>Rider Dummy 2</td><td>Team Dummy 2</td><td>Negara Dummy 2</td></tr>
+                            <tr><td>23</td><td>Rider Dummy 3</td><td>Team Dummy 3</td><td>Negara Dummy 3</td></tr>
+                            <tr><td>24</td><td>Rider Dummy 4</td><td>Team Dummy 4</td><td>Negara Dummy 4</td></tr>
+                            <tr><td>25</td><td>Rider Dummy 5</td><td>Team Dummy 5</td><td>Negara Dummy 5</td></tr>
+                            <tr><td>26</td><td>Rider Dummy 6</td><td>Team Dummy 6</td><td>Negara Dummy 6</td></tr>
+                            <tr><td>27</td><td>Rider Dummy 7</td><td>Team Dummy 7</td><td>Negara Dummy 7</td></tr>
+                            <tr><td>28</td><td>Rider Dummy 8</td><td>Team Dummy 8</td><td>Negara Dummy 8</td></tr>
+                            <tr><td>29</td><td>Rider Dummy 9</td><td>Team Dummy 9</td><td>Negara Dummy 9</td></tr>
+                            <tr><td>30</td><td>Rider Dummy 10</td><td>Team Dummy 10</td><td>Negara Dummy 10</td></tr>
+                            <tr><td>31</td><td>Rider Dummy 11</td><td>Team Dummy 11</td><td>Negara Dummy 11</td></tr>
+                            <tr><td>32</td><td>Rider Dummy 12</td><td>Team Dummy 12</td><td>Negara Dummy 12</td></tr>
+                            <tr><td>33</td><td>Rider Dummy 13</td><td>Team Dummy 13</td><td>Negara Dummy 13</td></tr>
+                            <tr><td>34</td><td>Rider Dummy 14</td><td>Team Dummy 14</td><td>Negara Dummy 14</td></tr>
+                            <tr><td>35</td><td>Rider Dummy 15</td><td>Team Dummy 15</td><td>Negara Dummy 15</td></tr>
+                            <tr><td>36</td><td>Rider Dummy 16</td><td>Team Dummy 16</td><td>Negara Dummy 16</td></tr>
+                            <tr><td>37</td><td>Rider Dummy 17</td><td>Team Dummy 17</td><td>Negara Dummy 17</td></tr>
+                            <tr><td>38</td><td>Rider Dummy 18</td><td>Team Dummy 18</td><td>Negara Dummy 18</td></tr>
+                            <tr><td>39</td><td>Rider Dummy 19</td><td>Team Dummy 19</td><td>Negara Dummy 19</td></tr>
+                            <tr><td>40</td><td>Rider Dummy 20</td><td>Team Dummy 20</td><td>Negara Dummy 20</td></tr>
+                            <tr><td>41</td><td>Rider Dummy 21</td><td>Team Dummy 21</td><td>Negara Dummy 21</td></tr>
+                            <tr><td>42</td><td>Rider Dummy 22</td><td>Team Dummy 22</td><td>Negara Dummy 22</td></tr>
+                            <tr><td>43</td><td>Rider Dummy 23</td><td>Team Dummy 23</td><td>Negara Dummy 23</td></tr>
+                            <tr><td>44</td><td>Rider Dummy 24</td><td>Team Dummy 24</td><td>Negara Dummy 24</td></tr>
+                            <tr><td>45</td><td>Rider Dummy 25</td><td>Team Dummy 25</td><td>Negara Dummy 25</td></tr>
+                            <tr><td>46</td><td>Rider Dummy 26</td><td>Team Dummy 26</td><td>Negara Dummy 26</td></tr>
+                            <tr><td>47</td><td>Rider Dummy 27</td><td>Team Dummy 27</td><td>Negara Dummy 27</td></tr>
+                            <tr><td>48</td><td>Rider Dummy 28</td><td>Team Dummy 28</td><td>Negara Dummy 28</td></tr>
+                            <tr><td>49</td><td>Rider Dummy 29</td><td>Team Dummy 29</td><td>Negara Dummy 29</td></tr>
+                            <tr><td>50</td><td>Rider Dummy 30</td><td>Team Dummy 30</td><td>Negara Dummy 30</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <p>Hak Cipta© 2024 | Website MotoGP Fans</p>
+        </footer>
+    </div>
+</body>
+</html>
